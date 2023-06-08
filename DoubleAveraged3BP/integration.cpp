@@ -1,5 +1,7 @@
 #include "Header.h"
 
+// Simpson's rule
+
 double int1d_simps(vector <double> f, vector <double> x) {
 	int n = (int)x.size();
 	double sum = 0;
